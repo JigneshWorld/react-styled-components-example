@@ -1,8 +1,11 @@
+import { Container } from './components/styles/Container.styled'
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Container>
+        <h1>Hello World</h1>
+      </Container>
     </>
   );
 }
