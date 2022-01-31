@@ -1,9 +1,10 @@
 import { ThemeProvider } from 'styled-components';
 import Card from './components/Card';
-import Header from './components/Header'
-import { Container } from './components/styles/Container.styled'
+import Footer from './components/Footer';
+import Header from './components/Header';
+import { Container } from './components/styles/Container.styled';
 import GlobalStyles from './components/styles/Global';
-import content from './content'
+import content from './content';
 
 
 const theme = {
@@ -26,6 +27,7 @@ function App() {
             <Card item={item} />
           ))}
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   );
