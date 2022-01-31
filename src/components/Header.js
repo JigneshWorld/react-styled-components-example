@@ -2,7 +2,7 @@ import { StyledHeader } from './styles/Header.styled'
 
 function Header() {
     return (
-        <StyledHeader bg="red">
+        <StyledHeader>
             <h1>Habble</h1>
         </StyledHeader>
     );
